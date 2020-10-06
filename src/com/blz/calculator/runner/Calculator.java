@@ -14,9 +14,13 @@ public class Calculator {
 		int sub = calci.sub(10, 20);
 		System.out.println("Sub: " + sub);
 
+		// Mul
+		int mul = calci.mul(10, 20);
+		System.out.println("Mul: " + mul);
+
 	}
 
-	private int add1(int numOne, int numTwo, int numThree) {
+	private int add(int numOne, int numTwo, int numThree) {
 		int addition = 0;
 		addition = numOne + numTwo + numThree;
 		return addition;
@@ -26,6 +30,12 @@ public class Calculator {
 		int sub = 0;
 		sub = numOne - numTwo;
 		return sub;
+	}
+
+	private int mul(int numOne, int numTwo) {
+		int mul = 0;
+		mul = numOne * numTwo;
+		return mul;
 	}
 
 }
