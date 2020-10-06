@@ -1,5 +1,4 @@
 # My Calculator Program
 
 ## Kalpesh
-
-()[!www.bridgelabz.com]
+[](!www.bridgelabz.com)
