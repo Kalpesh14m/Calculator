@@ -19,7 +19,7 @@ public class Calculator {
 		System.out.println("Mul: " + mul);
 
 		// Div
-		double div = calci.div(100, 20);
+		double div = calci.div(100, 0);
 		System.out.println("Div: " + div);
 
 	}
@@ -44,6 +44,8 @@ public class Calculator {
 
 	private double div(int numOne, int numTwo) {
 		double div = 0;
+		if (numTwo == 0)
+			System.out.println("Can't Div by Zero");
 		div = numOne / numTwo;
 		return div;
 	}
