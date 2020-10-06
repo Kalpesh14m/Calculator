@@ -16,7 +16,7 @@ public class Calculator {
 
 	}
 
-	private int add(int numOne, int numTwo, int numThree) {
+	private int add1(int numOne, int numTwo, int numThree) {
 		int addition = 0;
 		addition = numOne + numTwo + numThree;
 		return addition;
