@@ -15,7 +15,7 @@ public class Calculator {
 		System.out.println("Sub: " + sub);
 
 		// Mul
-		int mul = calci.mul(10, 20);
+		int mul = calci.mul(10, 0);
 		System.out.println("Mul: " + mul);
 
 		// Div
@@ -38,6 +38,8 @@ public class Calculator {
 
 	private int mul(int numOne, int numTwo) {
 		int mul = 0;
+		if (numTwo == 0)
+			System.out.println("Can't Mul by Zero");
 		mul = numOne * numTwo;
 		return mul;
 	}
