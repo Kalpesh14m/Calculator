@@ -18,6 +18,10 @@ public class Calculator {
 		int mul = calci.mul(10, 20);
 		System.out.println("Mul: " + mul);
 
+		// Div
+		double div = calci.div(100, 20);
+		System.out.println("Div: " + div);
+
 	}
 
 	private int add(int numOne, int numTwo, int numThree) {
@@ -36,6 +40,12 @@ public class Calculator {
 		int mul = 0;
 		mul = numOne * numTwo;
 		return mul;
+	}
+
+	private double div(int numOne, int numTwo) {
+		double div = 0;
+		div = numOne / numTwo;
+		return div;
 	}
 
 }
